@@ -11,81 +11,94 @@
       rel="stylesheet"
     />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <nav>
-        <a class="logo link" href="./">
-          Web<span class="logo-black">Studio</span>
-        </a>
-        <ul>
-          <li class="nav-list list">
-            <a class="nav-link link curennt" href="./">Студия</a>
+      <div class="container">
+        <nav>
+          <a class="logo link" href="./">
+            Web<span class="logo-black">Studio</span>
+          </a>
+          <ul class="header-list">
+            <li class="nav-list list">
+              <a class="nav-link link curennt" href="./">Студия</a>
+            </li>
+            <li class="nav-list list">
+              <a class="nav-link link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-list list">
+              <a class="nav-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="header-list">
+          <li class="logo-list list">
+            <a class="header-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="nav-list list">
-            <a class="nav-link link" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="nav-list list">
-            <a class="nav-link link" href="">Контакты</a>
+          <li class="logo-list list">
+            <a class="header-link link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
-      </nav>
-
-      <ul>
-        <li class="logo-list list">
-          <a class="header-link link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="logo-list list">
-          <a class="header-link link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-text">
-          Эффективные решения <br />
-          для вашего бизнеса
-        </h1>
-        <button class="hero-btn btn" type="button">Заказать услугу</button>
+        <div class="container">
+          <h1 class="hero-text">
+            Эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <button class="hero-btn btn" type="button">Заказать услугу</button>
+        </div>
       </section>
 
       <section class="feature">
-        <h2 hidden>Особенности</h2>
-        <ul>
-          <li class="feature-list list">
-            <h3 class="feature-header">Внимание к деталям</h3>
-            <p class="feature-text">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li class="feature-list list">
-            <h3 class="feature-header">Пунктуальность</h3>
-            <p class="feature-text">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li class="feature-list list">
-            <h3 class="feature-header">Планирование</h3>
-            <p class="feature-text">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li class="feature-list list">
-            <h3 class="feature-header">Современные технологии</h3>
-            <p class="feature-text">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 hidden>Особенности</h2>
+          <ul class="feature-ul">
+            <li class="feature-list list">
+              <h3 class="feature-header">Внимание к деталям</h3>
+              <p class="feature-text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="feature-list list">
+              <h3 class="feature-header">Пунктуальность</h3>
+              <p class="feature-text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="feature-list list">
+              <h3 class="feature-header">Планирование</h3>
+              <p class="feature-text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="feature-list list">
+              <h3 class="feature-header">Современные технологии</h3>
+              <p class="feature-text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="services">
         <h2 class="services-header">Чем мы занимаемся</h2>
