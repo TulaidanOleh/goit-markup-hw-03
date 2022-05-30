@@ -22,12 +22,12 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <nav>
+      <div class="container header-flex">
+        <nav class="header-flex">
           <a class="logo link" href="./">
             Web<span class="logo-black">Studio</span>
           </a>
-          <ul class="header-list">
+          <ul class="header-list header-flex">
             <li class="nav-list list">
               <a class="nav-link link curennt" href="./">Студия</a>
             </li>
@@ -40,7 +40,7 @@
           </ul>
         </nav>
 
-        <ul class="header-list">
+        <ul class="header-list header-flex">
           <li class="logo-list list">
             <a class="header-link link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -101,115 +101,121 @@
         </div>
       </section>
       <section class="services">
-        <h2 class="services-header">Чем мы занимаемся</h2>
-        <ul>
-          <li class="services-list list">
-            <img
-              class="services-img"
-              src="./images/what-we-do-img1.jpg"
-              alt="Написание программного кода для сайта"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li class="services-list list">
-            <img
-              class="services-img"
-              src="./images/what-we-do-img2.jpg"
-              alt="Разработка дизайна мобильного приложения"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li class="services-list list">
-            <img
-              class="services-img"
-              src="./images/what-we-do-img3.jpg"
-              alt="Подбор цветового решения"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="services-header">Чем мы занимаемся</h2>
+          <ul class="services-ul">
+            <li class="services-list list">
+              <img
+                class="services-img"
+                src="./images/what-we-do-img1.jpg"
+                alt="Написание программного кода для сайта"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="services-list list">
+              <img
+                class="services-img"
+                src="./images/what-we-do-img2.jpg"
+                alt="Разработка дизайна мобильного приложения"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="services-list list">
+              <img
+                class="services-img"
+                src="./images/what-we-do-img3.jpg"
+                alt="Подбор цветового решения"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="team">
-        <h2 class="team-header">Наша команда</h2>
-        <ul>
-          <li class="team-list list">
-            <img
-              class="team-img"
-              src="./images/our-team-img1.jpg"
-              alt="Фото мужчины в красной рубашке"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name">Игорь Демьяненко</h3>
-            <p class="team-position" lang="en">Product Designer</p>
-          </li>
-          <li class="team-list list">
-            <img
-              class="team-img"
-              src="./images/our-team-img2.jpg"
-              alt="Фото женщины в черном пиджаке"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name">Ольга Репина</h3>
-            <p class="team-position" lang="en">Frontend Developer</p>
-          </li>
-          <li class="team-list list">
-            <img
-              class="team-img"
-              src="./images/our-team-img3.jpg"
-              alt="фото мужчины в белой рубашке"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name">Николай Тарасов</h3>
-            <p class="team-position" lang="en">Marketing</p>
-          </li>
-          <li class="team-list list">
-            <img
-              class="team-img"
-              src="./images/our-team-img4.jpg"
-              alt="фото мужчины в черной футболке"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name">Михаил Ермаков</h3>
-            <p class="team-position" lang="en">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="team-header">Наша команда</h2>
+          <ul class="team-ul">
+            <li class="team-list list">
+              <img
+                class="team-img"
+                src="./images/our-team-img1.jpg"
+                alt="Фото мужчины в красной рубашке"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-name">Игорь Демьяненко</h3>
+              <p class="team-position" lang="en">Product Designer</p>
+            </li>
+            <li class="team-list list">
+              <img
+                class="team-img"
+                src="./images/our-team-img2.jpg"
+                alt="Фото женщины в черном пиджаке"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-name">Ольга Репина</h3>
+              <p class="team-position" lang="en">Frontend Developer</p>
+            </li>
+            <li class="team-list list">
+              <img
+                class="team-img"
+                src="./images/our-team-img3.jpg"
+                alt="фото мужчины в белой рубашке"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-name">Николай Тарасов</h3>
+              <p class="team-position" lang="en">Marketing</p>
+            </li>
+            <li class="team-list list">
+              <img
+                class="team-img"
+                src="./images/our-team-img4.jpg"
+                alt="фото мужчины в черной футболке"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-name">Михаил Ермаков</h3>
+              <p class="team-position" lang="en">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <a class="logo link" href="./"
-        >Web<span class="logo-white">Studio</span></a
-      >
-      <address class="footer-address">
-        <ul>
-          <li class="footer-list list">
-            <a
-              class="footer-address link"
-              href="https://goo.gl/maps/y1NagYW3fsQUz94v9"
-              target="_blank"
-              rel="noopener noreferrer"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li class="footer-list list">
-            <a class="footer-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="footer-list list">
-            <a class="footer-link link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a class="logo link" href="./"
+          >Web<span class="logo-white">Studio</span></a
+        >
+        <address class="footer-address">
+          <ul>
+            <li class="footer-list list">
+              <a
+                class="footer-address link"
+                href="https://goo.gl/maps/y1NagYW3fsQUz94v9"
+                target="_blank"
+                rel="noopener noreferrer"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="footer-list list">
+              <a class="footer-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="footer-list list">
+              <a class="footer-link link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
