@@ -372,6 +372,8 @@ img {
 .portfolio-list-text {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
   border: 1px solid #eeeeee;
   border-top: 0;
 }
@@ -382,7 +384,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--color-taxt-header);
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .portfolio-text {
@@ -390,8 +392,4 @@ img {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--color-taxt-basic);
-}
-.portfolio-header,
-.portfolio-text {
-  padding-left: 24px;
 }
